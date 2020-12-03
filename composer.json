@@ -1,0 +1,39 @@
+{
+  "name": "dhcc/om-openapi",
+  "type": "library",
+  "description": "OM-OPENAPI SDK for PHP7",
+  "keywords": [
+    "om",
+    "openapi",
+    "sdk",
+    "api"
+  ],
+  "homepage": "https://github.com/javareact/om-openapi",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "javareact",
+      "email": "javareact@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "guzzlehttp/psr7": "^1.4",
+    "ext-json": "*",
+    "ext-libxml": "*",
+    "ext-openssl": "*"
+  },
+  "suggest": {
+    "guzzlehttp/guzzle": "经典的兼容PSR7的HTTP客户端",
+    "swlib/saber": "Swoole下支持协程的兼容PSR7的HTTP客户端",
+    "symfony/cache": "兼容PSR16的Cache实现"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dhcc\\OmOpenapi\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "<9.0.0"
+  }
+}

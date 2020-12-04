@@ -13,3 +13,4 @@ composer.phar
 *.swa
 *.swp
 .phpunit.result.cache
+/composer.lock

@@ -3,7 +3,7 @@
 ## 项目简介
 适用于开发OM项目的PHP-SDK
 
-## 使用说明
+## 安装说明
 
 ```bash
 composer require dhcc/om-openapi

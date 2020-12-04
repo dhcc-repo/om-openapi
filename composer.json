@@ -3,17 +3,18 @@
   "type": "library",
   "description": "OM-OPENAPI SDK for PHP7",
   "keywords": [
+    "丝路",
     "om",
     "openapi",
     "sdk",
     "api"
   ],
-  "homepage": "https://github.com/javareact/om-openapi",
+  "homepage": "https://github.com/dhcc-repo/om-openapi.git",
   "license": "MIT",
   "authors": [
     {
-      "name": "javareact",
-      "email": "javareact@gmail.com"
+      "name": "dhcc-repo",
+      "email": "dhcc-repo@gmail.com"
     }
   ],
   "require": {
@@ -24,9 +25,7 @@
     "ext-openssl": "*"
   },
   "suggest": {
-    "guzzlehttp/guzzle": "经典的兼容PSR7的HTTP客户端",
-    "swlib/saber": "Swoole下支持协程的兼容PSR7的HTTP客户端",
-    "symfony/cache": "兼容PSR16的Cache实现"
+    "guzzlehttp/guzzle": "经典的兼容PSR7的HTTP客户端"
   },
   "autoload": {
     "psr-4": {
